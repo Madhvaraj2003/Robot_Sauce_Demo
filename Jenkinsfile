@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git url: 'https://github.com/Madhvaraj2003/Robot_Sauce_Demo.git', branch: 'main', credentialsId: 'your-credential-id'
+                git url: 'https://github.com/Madhvaraj2003/Robot_Sauce_Demo.git', branch: 'main', credentialsId: 'e64727bd-11e3-40f6-a239-970b84900b69'
             }
         }
 
